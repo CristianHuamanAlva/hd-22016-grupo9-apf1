@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FFF9E6;
+    color: #333;
+  }
+  
+  .btn-custom {
+    background-color: #D4A017;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #b88e11;
+  }
+  
+  
+  .rounded-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+  .lista-beneficios li {
+    background-color: #FFF9E6;
+    border: 2px solid #FFD580;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+    width: 50%; /* 👈 Cambia este valor si quieres más o menos ancho */
+    max-width: 500px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lista-beneficios li:hover {
+    background-color: #FFF1C1;
+  }
+  
+  .lista-beneficios i {
+    margin-right: 12px;
+    color: #D4A017;
+    font-size: 1.3rem;
+  }
+  
+  .text-gold {
+    color: #D4A017;
+  }
+  

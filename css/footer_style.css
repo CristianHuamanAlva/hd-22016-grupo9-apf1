@@ -1,4 +1,4 @@
-    /* Estilos base */
+    /* Estilos container base */
     .footer_estilo {
         font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
         color: #333;
@@ -197,7 +197,7 @@
         animation: footer_estilo-wiggle 0.5s ease;
     }
 
-    /* Responsive */
+    /* Responsive pantalla mediana tableta */
     @media (max-width: 991.98px) {
         .footer_estilo-section {
             margin-bottom: 2rem;
@@ -207,6 +207,8 @@
             font-size: 1.1rem;
         }
     }
+
+    /* Responsive pantalla mediana celulares */
 
     @media (max-width: 767.98px) {
         .footer_estilo-container {

@@ -1,5 +1,5 @@
 
-/* Reset básico */
+/* navbar container básico */
 .navbar_html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -60,6 +60,7 @@
     background: transparent;
 }
 
+/* Iconos */
 .waggy-search-icon {
     width: 20px;
     height: 20px;

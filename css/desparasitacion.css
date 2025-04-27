@@ -90,7 +90,7 @@ body {
 
   /*SECCION NUEVA*/
 /* Contenedor principal para la sección */
-#vacuna-container {
+#desparasitacion-container {
     padding: 40px 0;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -98,7 +98,7 @@ body {
   }
   
   /* Título principal de la sección */
-  #vacuna-titulo {
+  #desparasitacion-titulo {
     font-size: 32px;
     font-weight: bold;
     color: #D4A017;
@@ -106,7 +106,7 @@ body {
   }
   
   /* Párrafo introductorio */
-  #vacuna-introduccion {
+  #desparasitacion-introduccion {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
@@ -114,7 +114,7 @@ body {
   }
   
   /* Estilos para el acordeón */
-  #vacunas-accordion .card {
+  #desparasitacion-accordion .card {
     background-color: #FFFFFF;
     border: 2px solid #FFD580;
     border-radius: 12px;
@@ -122,8 +122,8 @@ body {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
   }
   
-  /* Encabezado de cada card (vacuna) */
-  #vacunas-accordion .card-header h3.mb-0 button {
+  /* Encabezado de cada card (desparasitacion) */
+  #desparasitacion-accordion .card-header h3.mb-0 button {
     font-size: 18px;
     outline: none;
     box-shadow: none;
@@ -136,40 +136,40 @@ body {
   }
   
   /* Estilo del botón al hacer hover */
-  #vacunas-accordion .card-header h3.mb-0 button:hover {
+  #desparasitacion-accordion .card-header h3.mb-0 button:hover {
     color: #b88e11;
   }
   
   /* Estilo del contenido dentro de cada card (acordeón) */
-  #vacunas-accordion .card-body p {
+  #desparasitacion-accordion .card-body p {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
   }
   
   /* Imagen en la segunda columna */
-  #vacuna-imagen {
+  #desparasitacion-imagen {
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   }
   
   /* Espaciado y alineación de las columnas */
-  #vacuna-row {
+  #desparasitacion-row {
     display: flex;
     justify-content: space-between;
   }
   
   /* Asegurarse que las tarjetas del acordeón sean responsivas */
-  #vacunas-accordion .card {
+  #desparasitacion-accordion .card {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
   }
   
-  #vacunas-accordion .card-body {
+  #desparasitacion-accordion .card-body {
     padding: 15px;
   }
-  .vacuna-toggle {
+  .desparasitacion-toggle {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,30 +182,80 @@ body {
     text-align: left;
   }
   
-  .vacuna-toggle .icon {
+  .desparasitacion-toggle .icon {
     font-size: 15px;
     color: #D4A017;
     transition: transform 0.3s ease;
   }
   /* Ícono por defecto (collapsed) será un “+” */
-  .vacuna-toggle.collapsed .icon::before {
+  .desparasitacion-toggle.collapsed .icon::before {
     content: "\f067"; /* fa-plus */
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
   }
   
   /* Ícono cuando está expandido será un “–” */
-  .vacuna-toggle:not(.collapsed) .icon::before {
+  .desparasitacion-toggle:not(.collapsed) .icon::before {
     content: "\f068"; /* fa-minus */
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
   }
-  #vacuna-row {
+  #desparasitacion-row {
     align-items: stretch; /* Asegura que ambas columnas tengan la misma altura */
   }
   
-  #vacuna-imagen {
+  #desparasitacion-imagen {
     height: 100%;
     width: 100%;
     object-fit: cover; /* Mantiene el aspecto atractivo */
     border-radius: 50%; /* Hace la imagen circular */}
+
+    .card-body-desparasitacion {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+    /*DUPLICADO PARA EL SEGUNDO ACORDEON*/
+    /* Estilos para el acordeón */
+  #desparasitacion2-accordion .card {
+    background-color: #FFFFFF;
+    border: 2px solid #FFD580;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Encabezado de cada card (desparasitacion) */
+  #desparasitacion2-accordion .card-header h3.mb-0 button {
+    font-size: 18px;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: #D4A017;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Estilo del botón al hacer hover */
+  #desparasitacion2-accordion .card-header h3.mb-0 button:hover {
+    color: #b88e11;
+  }
+  
+  /* Estilo del contenido dentro de cada card (acordeón) */
+  #desparasitacion2-accordion .card-body p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+    /* Asegurarse que las tarjetas del acordeón sean responsivas */
+    #desparasitacion2-accordion .card {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    #desparasitacion2-accordion .card-body {
+      padding: 15px;
+    }

@@ -194,5 +194,18 @@ body {
   .acordeon-item input[type="checkbox"]:checked + label {
     background-color: #FFF1C1;
   }
+    /*Estilo imágenes NECESARIO*/
+.rounded-img- {
+  border-radius: 20px;
+  border: 3px solid #FFD580;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+
+}
+
+.rounded-img-:hover {
+  transform: scale(1.03) rotate(1deg);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
   
   

@@ -18,10 +18,11 @@
 
     /* Logo */
     .footer_estilo-logo {
-        max-width: 160px;
-        height: auto;
-        filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.1));
-    }
+        width: 210px;   /* tamaño más pequeño del logo */
+        height: auto;   /* mantiene las proporciones */
+        display: block; /* evita que quede con márgenes extraños */
+      }
+      
 
     /* Textos */
     .footer_estilo-desc {

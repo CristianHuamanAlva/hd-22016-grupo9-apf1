@@ -295,3 +295,17 @@ body {
   transform: scale(1.03) rotate(1deg);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
   }
+
+  .spa_animated {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: spaFadeUp 1.2s ease-out forwards;
+    }
+  
+    @keyframes spaFadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+  

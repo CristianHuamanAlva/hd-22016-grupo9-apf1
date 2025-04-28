@@ -1156,3 +1156,16 @@ body.chocolat-open > .chocolat-image-wrapper {
 .chocolat-zoomable.chocolat-zooming-out .chocolat-img {
     transition: margin .2s ease;
 }
+
+.spa_animated {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: spaFadeUp 1.2s ease-out forwards;
+  }
+
+  @keyframes spaFadeUp {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  }
